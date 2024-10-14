@@ -14,7 +14,7 @@ verde = (0, 255, 0)
 azul = (50, 153, 213)
 
 # Dimensiones de la pantalla
-ancho_pantalla = 600
+ancho_pantalla = 800
 alto_pantalla = 400
 
 pantalla = pygame.display.set_mode((ancho_pantalla, alto_pantalla))
@@ -22,7 +22,7 @@ pygame.display.set_caption('Snake con Pygame')
 
 # Velocidad del reloj
 reloj = pygame.time.Clock()
-velocidad_snake = 15
+velocidad_snake = 5
 
 
 # Tamaño de la serpiente
